@@ -1,0 +1,64 @@
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(233, 233, 233); */
+}
+
+
+/* Logo container design starts */
+.logo-container, .input-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.logo-container{
+    padding: 20px;
+}
+
+.input-container{
+    box-shadow: 3px 4px 10px -4px rgb(0 0 0 / 25%);
+    width: 95%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.dark{
+    color: rgb(42, 207, 152);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.light{
+    color: gray;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Logo container design Ends */
+
+/* Input Container design starts */
+.input{
+    padding: 10px;
+    width: 80%;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.btn{
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: linear-gradient(90deg,#3cb4be,#43de7f);
+    color: white;
+}
+
+/* Input Container design Ends */
+
