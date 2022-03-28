@@ -12,7 +12,7 @@ function App() {
         zoom: 14
       }}
       style={{height: '100vh'}}
-      mapStyle="mapbox://styles/mapbox/streets-v9"
+      mapStyle={"mapbox://styles/mapbox/streets-v9"}
       mapboxAccessToken="pk.eyJ1IjoibmF2aWRuYWJpbCIsImEiOiJjbDE2MzJnMWwwNTlnM2Jtd2Zuc2djdTcyIn0.UIYnpGMIMwPxtpllPNQgxg"
       />
     </div>
