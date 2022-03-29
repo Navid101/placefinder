@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import "./result.css"
 import axios from 'axios'
-const Result = ({query}) => {
+import Place from '../place/Place'
+const Result = ({query,setValue}) => {
     const [data,setData] = useState([])
-    console.log(data)
     useEffect(async ()=>{
             const response = await axios.get(`https://barikoi.xyz/v1/api/search/autocomplete/MzE2NDo3TEZGWkZFNUpR/place?q=${query}`)
             const data = await response.data
@@ -13,7 +13,7 @@ const Result = ({query}) => {
         return (
             <div className='result'>
                 {data.map((place)=>{
-                return  <h3>{place.address}</h3>
+                return  <Place place={place} setValue={setValue} key={place.id}></Place>
                 })}
             </div>
         )

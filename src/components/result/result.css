@@ -4,4 +4,11 @@
     justify-content: flex-start;
     flex-direction: column;
     width: 95%;
+    height: 50%;
+    overflow-y: scroll !important;
+    scrollbar-width: thin;
+    scrollbar-color: rebeccapurple;
+    box-shadow: 3px 4px 10px -4px rgb(0 0 0 / 25%);
+    
+    
 }

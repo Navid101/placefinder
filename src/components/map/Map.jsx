@@ -30,7 +30,7 @@ export default function Map() {
    });
 
   return (
-    <div>
+    <div style={{overflow:'hidden'}}>
       <div ref={mapContainer} className="map-container" />
     </div>
   );
